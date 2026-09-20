@@ -12,3 +12,9 @@ insert into student values
 (102,"bob",14);
 
 select * from student;
+
+-- database queries
+create database if not exists instagram;
+drop database if exists instagram;
+show databases;
+show tables;
